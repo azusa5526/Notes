@@ -25,7 +25,7 @@ Pipelines
 
 Windows 與 Linux 使用代理程式集區的設定不同，詳細請參考此頁面：
 
-[新建一個新的 Agent pool](https://github.com/azusa5526/Notes/blob/master/azure-agent-pool/index.md)
+[建立一個新的 Agent pool](https://github.com/azusa5526/Notes/blob/master/azure-agent-pool/index.md)
 
 &emsp;
 
