@@ -39,7 +39,7 @@ Project settings >Pipelines > Service connections > New service connection > Doc
 
 填入 Harbor 所在的位置、登入的名稱與密碼並建立。
 
-![Untitled](./1.png)
+![Untitled](1.png)
 
 &emsp;
 
@@ -51,15 +51,15 @@ in a project > Pipelines > Builds > New > New build pipeline
 
 選擇 Project、Repository、以及觸發 Build 的 Branch。
 
-![Untitled](./2.png)
+![Untitled](2.png)
 
 選擇 YAML
 
-![Untitled](./3.png)
+![Untitled](3.png)
 
 命名 CI 名稱，並指定要使用的 Agent pool、YAML file 的路徑，最後按下儲存。
 
-![Untitled](./4.png)
+![Untitled](4.png)
 
 &emsp;
 
@@ -90,7 +90,7 @@ COPY 專案目錄下 nginx/default.config 至 docker /etc/nginx/conf.d/default.c
 
 COPY builder 階段生產出來的 dist 目錄底下所有檔案至 /usr/share/nginx/html/${publicPath}
    
-    💡 Dockerfile 描述為 from / to 描述，例如最後一行的命令為，拷貝 /app/dist/ 資料夾底下內容，至 /usr/share/nginx/html/timelapse 底下。
+> 💡 Dockerfile 描述為 from / to 描述，例如最後一行的命令為，拷貝 /app/dist/ 資料夾底下內容，至 /usr/share/nginx/html/timelapse 底下。
 
 &emsp;
 
@@ -201,7 +201,6 @@ services:
         restart: always
 
     api:
-        #image: iot.senslink.net:5000/api_anasystem_ota/repo:1.0.12
         image: iot.senslink.net:5000/api_anasystem_ota/repo:1.0.19
         restart: always
         environment:
