@@ -350,3 +350,11 @@ docker-compose down && docker-compose up -d
 - 停止 docker-compose，再啟動 docker-compose 並 -d 於背景運行
 
 &emsp;
+
+運行 restart.sh
+
+```bash
+bash restart.sh
+```
+
+&emsp;
