@@ -23,11 +23,9 @@ Pipelines
 
 要使用代理程式運行 build 程序，需要建立 / 選定一個代理程式集區。
 
-Windows 與 Linux 使用代理程式集區的設定不同，詳細請參考下列頁面：
+Windows 與 Linux 使用代理程式集區的設定不同，詳細請參考此頁面：
 
-[Window 使用代理程式集區](https://www.notion.so/Window-355b1566e14a463c892ccf71d67e3f57)
-
-[Linux (CentOS 7) 使用代理程式集區](https://www.notion.so/Linux-CentOS-7-eed0f26a8fa24a5bb9e8f559d0edb460)
+[新建一個新的 Agent pool](https://github.com/azusa5526/Notes/blob/master/azure-agent-pool/index.md)
 
 &emsp;
 
