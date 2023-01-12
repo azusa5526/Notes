@@ -21,7 +21,7 @@ Project settings >Pipelines > Agent pools > New agent pool
 
 設定後，將整個資料夾搬移至 C:/，執行資料夾內的 run.cmd 來啟動該 agent。
 
-    💡 Windows 上目前使用 integrated 驗證，需要 VisualStudio 與 TFS server 有成功連線紀錄才可以驗證成功。
+> 💡 Windows 上目前使用 integrated 驗證，需要 VisualStudio 與 TFS server 有成功連線紀錄才可以驗證成功。
 
 &emsp;
 
