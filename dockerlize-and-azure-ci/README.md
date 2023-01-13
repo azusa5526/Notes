@@ -90,6 +90,8 @@ COPY builder 階段生產出來的 dist 目錄底下所有檔案至 /usr/share/n
    
 > 💡 Dockerfile 描述為 from / to 描述，例如最後一行的命令為，拷貝 /app/dist/ 資料夾底下內容，至 /usr/share/nginx/html/timelapse 底下。
 
+> 💡 npm install 之前，必須確保拷貝進來的檔案包含 package.json、package-lock.json，避免套件自動升版導致錯誤。
+
 &emsp;
 
 # 新增 azure-pipelines.yml
