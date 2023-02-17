@@ -147,10 +147,3 @@ HelloWorld.vue - 範例周邊元件
 </details>
 
 </details>
-
-<details>
-<summary>utils - js / ts 工具庫</summary>
-<br>
-
-index.ts - 範例檔案
-</details>
