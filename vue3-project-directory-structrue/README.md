@@ -20,6 +20,7 @@ src
 │   │   ├── LayoutAppBar.vue
 │   │   ├── LayoutContent.vue
 │   │   ├── LayoutFooter.vue
+│   │   ├── LayoutNavDrawerList.vue
 │   │   └── LayoutNavDrawer.vue
 │   ├── LayoutBlank.vue
 │   └── LayoutPrimary.vue
@@ -29,6 +30,7 @@ src
 │   ├── vuetify.ts
 │   └── webfontloader.ts
 ├── router
+│   ├── nav-guard.ts
 │   └── index.ts
 ├── store
 │   ├── app.ts
